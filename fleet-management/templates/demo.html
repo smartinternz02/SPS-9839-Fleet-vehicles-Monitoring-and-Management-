@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>demo Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+<style>
+body,h1,h2,h3,h4,h5 {font-family: "Poppins", sans-serif}
+body {font-size:16px;}
+.w3-half img{margin-bottom:-6px;margin-top:16px;opacity:0.8;cursor:pointer}
+.w3-half img:hover{opacity:1}
+</style>
+<body>
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-pale-green w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:300px;font-weight:bold;" id="mySidebar"><br>
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft" style="width:100%;font-size:22px">Close Menu</a>
+  <div class="w3-container">
+    <h2 class="w3-padding-75 w3-text-indigo"><b>Fleet Management<br>Portal</b></h2>
+  </div>
+  <div class="container-fluid">
+    <a class="main-logo-img mt-3" href="#"><img src="static/img/smartinternz.png" alt="logo" height="81.5px" width="250px">
+       </a>
+  <div class="w3-bar-block">
+    <a href="#" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Home</a> 
+    <a href="#showcase" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Showcase</a> 
+    <a href="#services" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Services</a> 
+    <a href="#designers" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Designers</a> 
+    <a href="#packages" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Packages</a> 
+    <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Contact</a>
+  </div>
+</nav>
+
+<!-- Top menu on small screens -->
+<header class="w3-container w3-top w3-hide-large w3-red w3-xlarge w3-padding">
+  <a href="javascript:void(0)" class="w3-button w3-red w3-margin-right" onclick="w3_open()">☰</a>
+  <span>Fleet Management Portal</span>
+</header>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:340px;margin-right:40px">
+
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+          <a class="main-logo-img mt-3" href="#"><img src="/static/img/smartinternz.png" alt="logo" height="163px" width="500px">
+            <!-- <a class="navbar-brand" href="index.html">FLEET MANAGEMENT</a> -->
+          </a>
+          
+          <div class="row donate-sponsor">
+            <a type="button" class="btn btn-success mr-1" id="donate" href="login">LOGIN</a>
+            <a type="button" class="btn btn-warning mr-1" id="sponsor" href="register">REGISTER</a>
+            <a type="button" class="btn btn-primary mr-1" id="sponsor" href="admin">ADMIN</a>
+          </div>
+        </div>
+      </nav>
+      <!-- navbar ends -->
+
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <style>
+      .btn {
+        border: none;
+        color: white;
+        padding: 14px 28px;
+        font-size: 16px;
+        cursor: pointer;
+      }
+      
+      .success {background-color: #04AA6D;} /* Green */
+      .success:hover {background-color: #46a049;}
+      
+      .info {background-color: #2196F3;} /* Blue */
+      .info:hover {background: #0b7dda;}
+      
+      .warning {background-color: #ff9800;} /* Orange */
+      .warning:hover {background: #e68a00;}
+      
+      </style>
+      </head>
+      <body>
+      
+      <a href="login"><button class="btn success w3-round-large">LOGIN</button></a>
+      <a href="reg"><button class="btn info w3-round-large">REGISTER</button></a>
+      <a href="admin"><button class="btn warning w3-round-large">ADMIN</button></a>
+       
+     
+   
+
+
+      
+
+  <!-- Header -->
+  <div class="w3-container" style="margin-top:80px" id="showcase">
+    <h1 class="w3-jumbo w3-text-red"><b>About Us</b></h1>
+    </div>
+ 
+  <!-- Mission -->
+  <div class="w3-container" id="services" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-red"><b>Mission</b></h1>
+    <hr style="width:50px;border:5px solid rgb(27, 58, 194)" class="w3-round">
+    <p>Fleet management is the process your business uses to manage all fleet and asset information, from acquisition through to disposal.
+    This enables your business to reduce costs, improve efficiency and ensure compliance across an entire fleet operation. 
+    </p>
+  </div>
+
+    <!-- Operations -->
+  <div class="w3-container" id="services" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-red"><b>Operations</b></h1>
+    <hr style="width:50px;border:5px solid rgb(27, 58, 194)" class="w3-round">
+    <p>If your business uses vehicles for commercial purposes, then you’ll need some form of professional fleet management. 
+    The aim of the operation will be to control the entire lifecycle of commercial vehicles alongside reducing associated risk, improving efficiency, increasing productivity and ensuring compliance with legislation. Employee vehicles used for work purposes, known as the grey fleet, should also be included in this process. 
+    </p>
+  </div>
+  
+  <!-- Solutions -->
+  <div class="w3-container" id="designers" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-red"><b>Solutions</b></h1>
+    <hr style="width:50px;border:5px solid rgb(15, 36, 128)" class="w3-round">
+    <p>Fleet management software gives your business all the relevant information on the performance of your fleet whenever you want it. 
+    In effect, it is a sophisticated database with numerous applications that enables you to record and report the key attributes that can help improve efficiencies and drive down costs by reducing downtime and improving productivity.
+    </p>
+  </div>
+ 
+  <!-- Contact -->
+  <div class="w3-container" id="contact" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-red"><b>Contact</b></h1>
+    <hr style="width:50px;border:5px solid rgb(0, 110, 255)" class="w3-round">
+    <p>For more details/queries</p>
+    <form action="/action_page.php" target="_blank">
+      <div class="w3-section">
+        <label>Name</label>
+        <input class="w3-input w3-border" type="text" name="Name" required>
+      </div>
+      <div class="w3-section">
+        <label>Email</label>
+        <input class="w3-input w3-border" type="text" name="Email" required>
+      </div>
+      <div class="w3-section">
+        <label>Message</label>
+        <input class="w3-input w3-border" type="text" name="Message" required>
+      </div>
+      <button type="submit" class="w3-button w3-block w3-padding-large w3-red w3-margin-bottom">Send Message</button>
+    </form>  
+  </div>
+
+<!-- End page content -->
+</div>
+
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("myOverlay").style.display = "none";
+}
+
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+</script>
+
+</body>
+</html>
