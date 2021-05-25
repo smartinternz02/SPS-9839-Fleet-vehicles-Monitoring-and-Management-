@@ -10,7 +10,7 @@ using the predefined features.
 ![Slide1](https://user-images.githubusercontent.com/44544565/119506552-a7e77600-bd8b-11eb-931e-3472848e3881.JPG)
 
 ## Final Project
--> A basic front end web application is developed based on Bootstrap Style embedding HTML, CSS.
--> The backend Application is powered by Python Flask micro web framework.
--> MySQL database is used to store the database. REST API framework is used to retrieve and send information from Application to Database.
--> The final app is hosted on VMware Tanzu Application service and can be accessed a universal URL 
+- A basic front end web application is developed based on Bootstrap Style embedding HTML, CSS.
+- The backend Application is powered by Python Flask micro web framework.
+- MySQL database is used to store the database. REST API framework is used to retrieve and send information from Application to Database.
+- The final app is hosted on VMware Tanzu Application service and can be accessed a universal URL 
