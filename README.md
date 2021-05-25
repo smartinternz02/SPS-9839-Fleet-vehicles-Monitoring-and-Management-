@@ -16,3 +16,5 @@ using the predefined features.
 - Application is containerized using Docker and Docker images of Application is tested remotely and locally. 
 - Using CLI Cloud Foundry the Docker image could be deployed on the Tanzu service.
 - The final app is hosted on VMware Tanzu Application service and can be accessed a universal URL.
+
+## Video presentation: 
