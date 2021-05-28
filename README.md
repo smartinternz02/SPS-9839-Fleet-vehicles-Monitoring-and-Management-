@@ -18,3 +18,4 @@ using the predefined features.
 - The final app is hosted on VMware Tanzu Application service and can be accessed a universal URL.
 
 ## Video presentation: 
+> https://www.youtube.com/watch?v=mjKYEvfIHvg
